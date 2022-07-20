@@ -1,0 +1,181 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 2021DC435-rescue:SAINTCON-Minibadge-Simple-saintcon-minibadge X1
+U 1 1 6147E642
+P 2300 2450
+F 0 "X1" H 2728 2503 60  0000 L CNN
+F 1 "SAINTCON-Minibadge-Simple" H 2728 2397 60  0000 L CNN
+F 2 "minibadge_kicad:SAINTCON-Minibadge-Doublewide" H 2300 2500 60  0001 C CNN
+F 3 "" H 2300 2500 60  0001 C CNN
+	1    2300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D1
+U 1 1 6147EE7C
+P 2950 4000
+F 0 "D1" H 2943 4217 50  0000 C CNN
+F 1 "LED" H 2943 4126 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2950 4000 50  0001 C CNN
+F 3 "~" H 2950 4000 50  0001 C CNN
+	1    2950 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6147F4C0
+P 4000 3500
+F 0 "R1" H 4070 3546 50  0000 L CNN
+F 1 "R" H 4070 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 3930 3500 50  0001 C CNN
+F 3 "~" H 4000 3500 50  0001 C CNN
+	1    4000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6147F810
+P 4300 3500
+F 0 "R2" H 4370 3546 50  0000 L CNN
+F 1 "R" H 4370 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4230 3500 50  0001 C CNN
+F 3 "~" H 4300 3500 50  0001 C CNN
+	1    4300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6147FBF6
+P 4600 3500
+F 0 "R3" H 4670 3546 50  0000 L CNN
+F 1 "R" H 4670 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4530 3500 50  0001 C CNN
+F 3 "~" H 4600 3500 50  0001 C CNN
+	1    4600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 6147FEB1
+P 4850 3500
+F 0 "R4" H 4920 3546 50  0000 L CNN
+F 1 "R" H 4920 3455 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" V 4780 3500 50  0001 C CNN
+F 3 "~" H 4850 3500 50  0001 C CNN
+	1    4850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 614800DF
+P 3700 4000
+F 0 "D2" H 3693 4217 50  0000 C CNN
+F 1 "LED" H 3693 4126 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 3700 4000 50  0001 C CNN
+F 3 "~" H 3700 4000 50  0001 C CNN
+	1    3700 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 61480A8F
+P 4450 4000
+F 0 "D3" H 4443 4217 50  0000 C CNN
+F 1 "LED" H 4443 4126 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4450 4000 50  0001 C CNN
+F 3 "~" H 4450 4000 50  0001 C CNN
+	1    4450 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D4
+U 1 1 61481161
+P 5100 4000
+F 0 "D4" H 5093 4217 50  0000 C CNN
+F 1 "LED" H 5093 4126 50  0000 C CNN
+F 2 "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 5100 4000 50  0001 C CNN
+F 3 "~" H 5100 4000 50  0001 C CNN
+	1    5100 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 3350 4300 3350
+Wire Wire Line
+	4300 3350 4600 3350
+Connection ~ 4300 3350
+Wire Wire Line
+	4600 3350 4850 3350
+Connection ~ 4600 3350
+Wire Wire Line
+	1550 1650 1550 4300
+Wire Wire Line
+	3100 4300 3100 4000
+Wire Wire Line
+	3850 4300 3850 4000
+Wire Wire Line
+	1550 4300 3100 4300
+Connection ~ 3100 4300
+Wire Wire Line
+	3100 4300 3850 4300
+Wire Wire Line
+	1550 1650 1950 1650
+Wire Wire Line
+	1950 1650 1950 1850
+Wire Wire Line
+	2050 1850 2050 1650
+Wire Wire Line
+	4000 1650 4000 3350
+Connection ~ 4000 3350
+Wire Wire Line
+	2550 3050 2550 4700
+Wire Wire Line
+	2550 4700 4600 4700
+Wire Wire Line
+	4600 4700 4600 4000
+Wire Wire Line
+	4600 4700 5250 4700
+Wire Wire Line
+	5250 4700 5250 4000
+Connection ~ 4600 4700
+Wire Wire Line
+	4000 3650 2800 3650
+Wire Wire Line
+	2800 3650 2800 4000
+Wire Wire Line
+	4300 3650 4300 3750
+Wire Wire Line
+	4300 3750 3550 3750
+Wire Wire Line
+	3550 3750 3550 4000
+Wire Wire Line
+	4600 3650 4600 3850
+Wire Wire Line
+	4600 3850 4300 3850
+Wire Wire Line
+	4300 3850 4300 4000
+Wire Wire Line
+	4850 3650 4850 4000
+Wire Wire Line
+	4850 4000 4950 4000
+Wire Wire Line
+	2050 1650 2650 1650
+Wire Wire Line
+	2650 1850 2650 1650
+Connection ~ 2650 1650
+Wire Wire Line
+	2650 1650 4000 1650
+$EndSCHEMATC
